@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <script src="lucide.js"></script>
+  <title>Kenpachi Ink</title>
+</head>
+
+<body class="bg-gradient-to-b from-neutral-900 to-black text-white">
+  <div>
+
+    <!-- Card Principal -->
+    <div class="bg-neutral-900/70 backdrop-blur-xl shadow-2xl overflow-hidden">
+
+      <!-- Cover -->
+      <div class="relative">
+        <img src="/public/cover-pic.jpg" class="w-full h-36 object-cover opacity-90" />
+        <div class="absolute inset-0 bg-black/40"></div>
+      </div>
+
+      <!-- Avatar -->
+      <div class="flex justify-center absolute top-20 w-full">
+        <img src="/public/profile-pic.jpg"
+          class="w-28 h-28 rounded-full border-4 border-black shadow-xl object-cover" />
+      </div>
+
+      <!-- Info -->
+      <div class="text-center mt-16 px-6">
+        <h1 class="text-xl font-bold tracking-wide">Kenpachi Ink</h1>
+        <p class="text-sm text-gray-400">Tattoo Artist • Geek, Preto e Cinza, Full Color Fantasy</p>
+      </div>
+
+      <!-- CTA Principal -->
+      <div class="px-6 mt-5">
+        <a href="https://wa.me/5511997010298"
+          class="flex justify-center items-center gap-1 text-center text-lg bg-white text-black font-semibold py-3 rounded-xl hover:scale-[1.02] transition">
+          <img src="/public/icons/whatsapp.webp" class="w-7 h-7" />
+          Fazer Orçamento
+        </a>
+      </div>
+
+      <!-- Links -->
+      <div class="px-4 mt-6 pb-6 space-y-3">
+
+        <a href="https://www.instagram.com/p/DW18ZlGgGv3/"
+          class="flex items-center justify-between bg-white/5 hover:bg-white/10 transition p-4 rounded-xl">
+          <div class="flex items-center gap-3">
+            <img src="/public/icons/instagram.png" class="w-6 h-6" />
+            <span>Siga no Instagram</span>
+          </div>
+          <span class="text-sm text-gray-400">
+            <i data-lucide="arrow-up-right"></i>
+          </span>
+        </a>
+
+        <a href="https://www.tiktok.com/@kenpachiink11?_r=1&_t=ZS-95mMMPFOxIz"
+          class="flex items-center justify-between bg-white/5 hover:bg-white/10 transition p-4 rounded-xl">
+          <div class="flex items-center gap-3">
+            <img src="/public/icons/tiktok.png" class="w-6 h-6" />
+            <span>Siga no TikTok</span>
+          </div>
+          <span class="text-sm text-gray-400">
+            <i data-lucide="arrow-up-right"></i>
+          </span>
+        </a>
+
+        <a href="https://share.google/9bCQIoLbnc47N4Sl8"
+          class="flex flex-col items-center justify-between bg-white/5 hover:bg-white/10 transition p-4 rounded-xl">
+          <div class="flex items-center justify-between w-full">
+            <div class="flex items-center gap-3">
+              <img src="/public/icons/maps.png" class="w-6 h-6" />
+              <span>Saiba Como Chegar</span>
+            </div>
+            <span class="text-sm text-gray-400">
+              <i data-lucide="arrow-up-right"></i>
+            </span>
+          </div>
+          <div class="mt-4 w-full">
+            <div class="rounded-xl overflow-hidden border border-white/10">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14615.506356327804!2d-46.86774642827655!3d-23.68037095948974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf078a61428361%3A0xd68dae7ebbb3d4fa!2skenpachi%20arte%20tattoo!5e0!3m2!1spt-BR!2sbr!4v1776965866891!5m2!1spt-BR!2sbr"
+                class="w-full h-48 border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </a>
+
+
+
+      </div>
+
+      <!-- FAQ -->
+      <div class="px-4 pb-6 space-y-3">
+        <h2 class="text-sm text-gray-400 mb-2 text-center uppercase">Dúvidas Frequentes</h2>
+
+        <details class="group bg-white/5 rounded-xl p-4">
+          <summary class="flex justify-between items-center cursor-pointer list-none">
+            <div class="flex justify-start items-center gap-2">
+              <i data-lucide="message-circle-question-mark"></i>
+              <span class="font-semibold">Quanto custa uma tatuagem?</span>
+            </div>
+            <span class="text-gray-400 transition-transform group-open:rotate-180">
+              <i data-lucide="chevron-down"></i>
+            </span>
+          </summary>
+          <p class="text-sm text-gray-400 mt-2">O valor varia de acordo com tamanho, estilo e complexidade. Clique em
+            "Fazer Orçamento" para receber um valor personalizado.</p>
+        </details>
+
+        <details class="group bg-white/5 rounded-xl p-4">
+          <summary class="flex justify-between items-center cursor-pointer list-none">
+            <div class="flex justify-start items-center gap-2">
+              <i data-lucide="message-circle-question-mark"></i>
+              <span class="font-semibold">Você faz qualquer tipo de arte?</span>
+            </div>
+            <span class="text-gray-400 transition-transform group-open:rotate-180">
+              <i data-lucide="chevron-down"></i>
+            </span>
+          </summary>
+          <p class="text-sm text-gray-400 mt-2">O foco é em Blackwork e Anime, mas podemos avaliar outras ideias sob
+            consulta.</p>
+        </details>
+
+        <details class="group bg-white/5 rounded-xl p-4">
+          <summary class="flex justify-between items-center cursor-pointer list-none">
+            <div class="flex justify-start items-center gap-2">
+              <i data-lucide="message-circle-question-mark"></i>
+              <span class="font-semibold">Como funciona o agendamento?</span>
+            </div>
+            <span class="text-gray-400 transition-transform group-open:rotate-180">
+              <i data-lucide="chevron-down"></i>
+            </span>
+          </summary>
+          <p class="text-sm text-gray-400 mt-2">Após o orçamento, combinamos data e é necessário um sinal para garantir
+            o horário.</p>
+        </details>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+<script src="lucide.js"></script>
+
+</html>
